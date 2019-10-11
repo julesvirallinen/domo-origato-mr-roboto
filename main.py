@@ -19,5 +19,4 @@ while(True):
     if(sensor.distance()<10):
         robot.drive_time(-200,0, 2000)
         robot.drive_time(200, 90, 1000) 
-        wait(1000)
         
